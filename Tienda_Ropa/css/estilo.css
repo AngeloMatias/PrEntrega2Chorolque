@@ -1,0 +1,91 @@
+
+
+@import url('https://fonts.googleapis.com/css2? family= Rowdies & display=swap');
+
+@media screen and (max-width: 767px) {
+    body {
+        margin: 8px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        margin: 30px; 
+    }
+}
+
+body {
+    font-family: 'Rowdies', sans-serif;
+    background-image: url('../img/fondoxd.jpg');
+}
+
+h1 {
+    color: blueviolet;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    text-align: center;
+    border: 25px dashed black ;
+    background-color: white;
+    font-size: 80px;
+    
+}
+
+
+header ul li {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: inline-block;
+    margin: 120px;
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.textos {
+    text-align: center;
+    font-size: 40px;
+    color: purple;
+
+}
+
+footer {
+    border: 5px solid black;
+    color: purple;
+
+}
+
+footer ul uli {
+    list-style-type: none;
+
+}
+
+.textos {
+    border: 5px solid black;
+}
+
+.padreFlex {
+    background-color: purple;
+    border: 5px solid black;
+    width: 100px;
+    height: 150px;
+    border-radius: 7px;
+
+
+    display: flex;
+}
+.hijoFlexprimero {
+    background-color: white;
+    width: 100px;
+    height: 150px;
+    border: 1px solid purple;
+    border-radius: 1pc;
+} 
+
+
+
+
+
